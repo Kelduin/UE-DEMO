@@ -1,0 +1,37 @@
+{
+	"FileVersion": 3,
+	"Version": 769546277,
+	"VersionName": "2.0.12",
+	"FriendlyName": "glTF for UE4",
+	"Description": "Best importor for the glTF in UE4",
+	"Category": "Importers",
+	"CreatedBy": "Code 4 Game",
+	"CreatedByURL": "https://c4g.io/",
+	"DocsURL": "https://doc.c4g.io/",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/42c1de74ac44481bb4e80378863e04c8",
+	"SupportURL": "https://doc.c4g.io/",
+	"EngineVersion": "5.1.0",
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "glTFForUE4",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac"
+			]
+		},
+		{
+			"Name": "glTFForUE4Ed",
+			"Type": "Editor",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac"
+			]
+		}
+	]
+}
